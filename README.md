@@ -37,7 +37,7 @@ _cost_ = 0 x _TN_ + A x _TP_ + A x _FP_ + Amt x _FN_,
 where A is the admin cost, and Amt is the transaction amount average for when the transaction is a fraud. The admin cost can be the cost involved in raising an alert in case the transaction is detected as fraud, and the resources used to process the alerts. Amt is the average transaction amount for all fraudulent transactions in the dataset. This is of course, for simplicity. 
 Class Weights for Fraudulent Transactions vs. Model's Financial Savings
 
-![The Class Weights vs. Model's Financial Savings] (https://raw.githubusercontent.com/nit611/Credit_Card_Fraud_Detection/da_real_nit/output/weights_vs_cost.png)
+![The Class Weights vs. Model's Financial Savings](https://raw.githubusercontent.com/nit611/Credit_Card_Fraud_Detection/da_real_nit/output/weights_vs_cost.png)
 
 ##  Last Notes<br>
 
